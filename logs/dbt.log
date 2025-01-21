@@ -39,3 +39,255 @@ Runtime Error
 [0m12:08:22.031837 [debug] [MainThread]: Command `dbt run` failed at 12:08:22.030838 after 0.48 seconds
 [0m12:08:22.032976 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2C016660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2F593BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2F7ECA10>]}
 [0m12:08:22.035837 [debug] [MainThread]: Flushing usage events
+[0m12:43:55.258931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E7F2DFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E7F2D0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E7F2DD90>]}
+
+
+============================== 12:43:55.295471 | 5d1faa29-6180-47b0-9b5c-e8ba0859f403 ==============================
+[0m12:43:55.295471 [info ] [MainThread]: Running with dbt=1.7.9
+[0m12:43:55.301462 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'D:\\BigPapaProject\\GitHub\\dbt-challenge\\logs', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:43:55.973631 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "dbt_projet", target "dev" invalid: ['schema'] is not valid under any of the given schemas
+[0m12:43:55.976632 [debug] [MainThread]: Command `dbt run` failed at 12:43:55.976632 after 2.44 seconds
+[0m12:43:55.983636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E83FC350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E737C3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246E8427CB0>]}
+[0m12:43:55.985636 [debug] [MainThread]: Flushing usage events
+[0m13:57:10.901548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF18D2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBEE836B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF18DAC0>]}
+
+
+============================== 13:57:10.914553 | 3929f4db-5dda-4af9-9b17-6b5470dbe9c0 ==============================
+[0m13:57:10.914553 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:57:10.916552 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\BigPapaProject\\GitHub\\dbt-challenge\\logs', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:57:11.169711 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "dbt_projet", target "dev" invalid: ['schema'] is not valid under any of the given schemas
+[0m13:57:11.173620 [debug] [MainThread]: Command `dbt run` failed at 13:57:11.173620 after 0.72 seconds
+[0m13:57:11.175621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBEF10620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBEFB2FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF331190>]}
+[0m13:57:11.176619 [debug] [MainThread]: Flushing usage events
+[0m13:58:39.737123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002578168D790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002578168D700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002578168D640>]}
+
+
+============================== 13:58:39.748129 | e56c49ba-691a-4ff1-862e-9f3ddbc8afde ==============================
+[0m13:58:39.748129 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:58:39.750128 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'D:\\BigPapaProject\\GitHub\\dbt-challenge\\logs', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:58:39.969186 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "dbt_challenge", target "dev" invalid: ['schema'] is not valid under any of the given schemas
+[0m13:58:39.973310 [debug] [MainThread]: Command `dbt run` failed at 13:58:39.972307 after 0.56 seconds
+[0m13:58:39.974186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257817B4620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257FE6603B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025781A6C320>]}
+[0m13:58:39.976186 [debug] [MainThread]: Flushing usage events
+[0m14:00:14.518596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D2DDDE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D2DDF0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D2DDEBD0>]}
+
+
+============================== 14:00:14.529740 | ad6dac7a-61a6-4c85-bfd1-118c271f0951 ==============================
+[0m14:00:14.529740 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:00:14.532599 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'log_path': 'D:\\BigPapaProject\\GitHub\\dbt-challenge\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:00:15.198189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D2E84650>]}
+[0m14:00:15.518066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D2E3C6B0>]}
+[0m14:00:15.521070 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m14:00:15.556082 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m14:00:15.569081 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:00:15.572082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D32C6AB0>]}
+[0m14:00:19.876168 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_projet.example
+[0m14:00:19.898294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D3330230>]}
+[0m14:00:19.946186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D463D400>]}
+[0m14:00:19.947185 [info ] [MainThread]: Found 2 models, 4 tests, 0 sources, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m14:00:19.949185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D4631D00>]}
+[0m14:00:19.958193 [info ] [MainThread]: 
+[0m14:00:19.964190 [debug] [MainThread]: Acquiring new mysql connection 'master'
+[0m14:00:19.968191 [debug] [ThreadPool]: Acquiring new mysql connection 'list_schemas'
+[0m14:00:20.020203 [debug] [ThreadPool]: Using mysql connection "list_schemas"
+[0m14:00:20.023208 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "connection_name": "list_schemas"} */
+select distinct schema_name
+        from information_schema.schemata
+[0m14:00:20.025207 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:00:20.975971 [debug] [ThreadPool]: SQL status: SUCCESS 8 in 1.0 seconds
+[0m14:00:20.981972 [debug] [ThreadPool]: On list_schemas: Close
+[0m14:00:20.992975 [debug] [ThreadPool]: Acquiring new mysql connection 'list_None_my_dbt_db'
+[0m14:00:21.018979 [debug] [ThreadPool]: Using mysql connection "list_None_my_dbt_db"
+[0m14:00:21.023983 [debug] [ThreadPool]: On list_None_my_dbt_db: BEGIN
+[0m14:00:21.027072 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:00:22.803426 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 2.0 seconds
+[0m14:00:22.806430 [debug] [ThreadPool]: Using mysql connection "list_None_my_dbt_db"
+[0m14:00:22.808427 [debug] [ThreadPool]: On list_None_my_dbt_db: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "connection_name": "list_None_my_dbt_db"} */
+select
+      null as "database",
+      table_name as name,
+      table_schema as "schema",
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           else table_type
+      end as table_type
+    from information_schema.tables
+    where table_schema = 'my_dbt_db'
+  
+[0m14:00:22.817431 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.0 seconds
+[0m14:00:22.825436 [debug] [ThreadPool]: On list_None_my_dbt_db: ROLLBACK
+[0m14:00:22.829434 [debug] [ThreadPool]: On list_None_my_dbt_db: Close
+[0m14:00:22.848438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D47CB6E0>]}
+[0m14:00:22.851440 [debug] [MainThread]: Using mysql connection "master"
+[0m14:00:22.853440 [debug] [MainThread]: On master: BEGIN
+[0m14:00:22.858441 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:00:23.897801 [debug] [MainThread]: SQL status: SUCCESS 0 in 1.0 seconds
+[0m14:00:23.899703 [debug] [MainThread]: On master: COMMIT
+[0m14:00:23.900703 [debug] [MainThread]: Using mysql connection "master"
+[0m14:00:23.901703 [debug] [MainThread]: On master: COMMIT
+[0m14:00:23.905706 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:23.907706 [debug] [MainThread]: On master: Close
+[0m14:00:23.911705 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:00:23.914707 [info ] [MainThread]: 
+[0m14:00:23.924710 [debug] [Thread-1 (]: Began running node model.dbt_challenge.my_first_dbt_model
+[0m14:00:23.926731 [info ] [Thread-1 (]: 1 of 2 START sql table model my_dbt_db.my_first_dbt_model ...................... [RUN]
+[0m14:00:23.930711 [debug] [Thread-1 (]: Acquiring new mysql connection 'model.dbt_challenge.my_first_dbt_model'
+[0m14:00:23.931710 [debug] [Thread-1 (]: Began compiling node model.dbt_challenge.my_first_dbt_model
+[0m14:00:23.963722 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:23.984725 [debug] [Thread-1 (]: Timing info for model.dbt_challenge.my_first_dbt_model (compile): 14:00:23.932712 => 14:00:23.982724
+[0m14:00:23.986725 [debug] [Thread-1 (]: Began executing node model.dbt_challenge.my_first_dbt_model
+[0m14:00:24.123759 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:24.130761 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:24.131762 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: BEGIN
+[0m14:00:24.132762 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:00:24.983973 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 1.0 seconds
+[0m14:00:24.984975 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:24.987045 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_first_dbt_model"} */
+
+  
+    
+
+  create  table
+    `my_dbt_db`.`my_first_dbt_model__dbt_tmp`
+    
+    
+      as
+    
+    (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+  
+[0m14:00:25.037983 [debug] [Thread-1 (]: SQL status: SUCCESS 2 in 0.0 seconds
+[0m14:00:25.058988 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:25.060988 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_first_dbt_model"} */
+
+    drop table if exists `my_dbt_db`.`my_first_dbt_model` cascade
+  
+[0m14:00:25.067082 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:25.069991 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:25.071993 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_first_dbt_model"} */
+
+    rename table `my_dbt_db`.`my_first_dbt_model__dbt_tmp` to `my_dbt_db`.`my_first_dbt_model`
+  
+[0m14:00:25.102001 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:25.166019 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: COMMIT
+[0m14:00:25.168017 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:25.172017 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: COMMIT
+[0m14:00:25.176016 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:25.199024 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_first_dbt_model"
+[0m14:00:25.201025 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_first_dbt_model"} */
+drop table if exists `my_dbt_db`.`my_first_dbt_model__dbt_backup`
+[0m14:00:25.211028 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:25.217027 [debug] [Thread-1 (]: Timing info for model.dbt_challenge.my_first_dbt_model (execute): 14:00:23.991727 => 14:00:25.216027
+[0m14:00:25.218129 [debug] [Thread-1 (]: On model.dbt_challenge.my_first_dbt_model: Close
+[0m14:00:25.227034 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D2DDE990>]}
+[0m14:00:25.229031 [info ] [Thread-1 (]: 1 of 2 OK created sql table model my_dbt_db.my_first_dbt_model ................. [[32mSUCCESS 2[0m in 1.30s]
+[0m14:00:25.233034 [debug] [Thread-1 (]: Finished running node model.dbt_challenge.my_first_dbt_model
+[0m14:00:25.236036 [debug] [Thread-1 (]: Began running node model.dbt_challenge.my_second_dbt_model
+[0m14:00:25.239038 [info ] [Thread-1 (]: 2 of 2 START sql view model my_dbt_db.my_second_dbt_model ...................... [RUN]
+[0m14:00:25.244035 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_challenge.my_first_dbt_model, now model.dbt_challenge.my_second_dbt_model)
+[0m14:00:25.245035 [debug] [Thread-1 (]: Began compiling node model.dbt_challenge.my_second_dbt_model
+[0m14:00:25.256041 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:25.261042 [debug] [Thread-1 (]: Timing info for model.dbt_challenge.my_second_dbt_model (compile): 14:00:25.247038 => 14:00:25.260040
+[0m14:00:25.265043 [debug] [Thread-1 (]: Began executing node model.dbt_challenge.my_second_dbt_model
+[0m14:00:25.609127 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:25.613142 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:25.616221 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: BEGIN
+[0m14:00:25.617197 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:00:26.397418 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 1.0 seconds
+[0m14:00:26.398420 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:26.400322 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_second_dbt_model"} */
+
+  create view `my_dbt_db`.`my_second_dbt_model__dbt_tmp`
+    
+    
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from `my_dbt_db`.`my_first_dbt_model`
+where id = 1
+  );
+[0m14:00:26.422421 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:26.432336 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:26.433332 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_second_dbt_model"} */
+
+    drop view if exists `my_dbt_db`.`my_second_dbt_model` cascade
+  
+[0m14:00:26.440405 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:26.444330 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:26.445337 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_second_dbt_model"} */
+
+    rename table `my_dbt_db`.`my_second_dbt_model__dbt_tmp` to `my_dbt_db`.`my_second_dbt_model`
+  
+[0m14:00:26.455335 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:26.461336 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: COMMIT
+[0m14:00:26.462440 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:26.464346 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: COMMIT
+[0m14:00:26.467441 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:26.475342 [debug] [Thread-1 (]: Using mysql connection "model.dbt_challenge.my_second_dbt_model"
+[0m14:00:26.477340 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "dbt_challenge", "target_name": "dev", "node_id": "model.dbt_challenge.my_second_dbt_model"} */
+drop view if exists `my_dbt_db`.`my_second_dbt_model__dbt_backup`
+[0m14:00:26.482438 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:26.487445 [debug] [Thread-1 (]: Timing info for model.dbt_challenge.my_second_dbt_model (execute): 14:00:25.267043 => 14:00:26.486446
+[0m14:00:26.489347 [debug] [Thread-1 (]: On model.dbt_challenge.my_second_dbt_model: Close
+[0m14:00:26.494347 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ad6dac7a-61a6-4c85-bfd1-118c271f0951', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D4857EF0>]}
+[0m14:00:26.497447 [info ] [Thread-1 (]: 2 of 2 OK created sql view model my_dbt_db.my_second_dbt_model ................. [[32mSUCCESS 0[0m in 1.25s]
+[0m14:00:26.500422 [debug] [Thread-1 (]: Finished running node model.dbt_challenge.my_second_dbt_model
+[0m14:00:26.508349 [debug] [MainThread]: Using mysql connection "master"
+[0m14:00:26.509350 [debug] [MainThread]: On master: BEGIN
+[0m14:00:26.512349 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:00:27.290405 [debug] [MainThread]: SQL status: SUCCESS 0 in 1.0 seconds
+[0m14:00:27.292405 [debug] [MainThread]: On master: COMMIT
+[0m14:00:27.294405 [debug] [MainThread]: Using mysql connection "master"
+[0m14:00:27.295406 [debug] [MainThread]: On master: COMMIT
+[0m14:00:27.299407 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m14:00:27.300406 [debug] [MainThread]: On master: Close
+[0m14:00:27.307408 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:00:27.308410 [debug] [MainThread]: Connection 'list_schemas' was properly closed.
+[0m14:00:27.310408 [debug] [MainThread]: Connection 'list_None_my_dbt_db' was properly closed.
+[0m14:00:27.311424 [debug] [MainThread]: Connection 'model.dbt_challenge.my_second_dbt_model' was properly closed.
+[0m14:00:27.313411 [info ] [MainThread]: 
+[0m14:00:27.317413 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 7.35 seconds (7.35s).
+[0m14:00:27.325411 [debug] [MainThread]: Command end result
+[0m14:00:27.365420 [info ] [MainThread]: 
+[0m14:00:27.368421 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:00:27.371423 [info ] [MainThread]: 
+[0m14:00:27.375427 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m14:00:27.381425 [debug] [MainThread]: Command `dbt run` succeeded at 14:00:27.378426 after 13.30 seconds
+[0m14:00:27.386430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D2168B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D1E68440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9CFE401D0>]}
+[0m14:00:27.392427 [debug] [MainThread]: Flushing usage events
