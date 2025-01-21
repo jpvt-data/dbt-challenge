@@ -1,6 +1,6 @@
 # 🌟 ETL/ELT : DBT Introduction 🌟
 
-Bienvenue dans le dépôt dédié à la quête **DBT Introduction**.
+Bienvenue dans le dépôt dédié à l'utilisation de **DBT**.
 
 Cette quête est une introduction à l'outil **DBT (Data Build Tool)**, qui joue un rôle clé dans les transformations de données dans un processus ELT.
 
