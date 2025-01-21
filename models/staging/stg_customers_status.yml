@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_customers_status
+    columns:
+      - name: customer_status
+        description: Statut du client (Bronze, Argent, Or)
+      - name: min_order_count
+        description: Nombre de Commandes minimum
+      - name: max_order_count
+        description: Nombre de Commandes maximum
