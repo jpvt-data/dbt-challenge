@@ -1,4 +1,4 @@
-# 🌟 ETL/ELT : DBT Introduction 🌟
+# 🌟 ETL/ELT : DBT Challenge 🌟
 
 Bienvenue dans le dépôt dédié à l'utilisation de **DBT**.
 
