@@ -1,0 +1,41 @@
+[0m11:11:52.064667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017DB7ED6480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017DB7ED4260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017DB7ED7920>]}
+
+
+============================== 11:11:52.107695 | 249e7347-64da-4b3f-a394-82d4c71e409c ==============================
+[0m11:11:52.107695 [info ] [MainThread]: Running with dbt=1.7.9
+[0m11:11:52.112677 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:15:01.934671 [debug] [MainThread]: Starter project path: D:\BigPapaProject\Anaconda\envs\dbt1\Lib\site-packages\dbt\include\starter_project
+[0m11:15:03.722921 [info ] [MainThread]: 
+Your new dbt project "dbt_projet" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:15:03.726919 [info ] [MainThread]: Setting up your profile.
+[0m11:17:56.717939 [debug] [MainThread]: Command `dbt init` succeeded at 11:17:56.717939 after 365.48 seconds
+[0m11:17:56.718936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017DB7D54F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017DB7C80800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017DB83843E0>]}
+[0m11:17:56.720936 [debug] [MainThread]: Flushing usage events
+[0m12:08:22.010840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2F7ED400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2F7ED280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2F7ED190>]}
+
+
+============================== 12:08:22.021972 | 9232e0ef-02bd-4a99-a314-b991a78f3bd9 ==============================
+[0m12:08:22.021972 [info ] [MainThread]: Running with dbt=1.7.9
+[0m12:08:22.024834 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:08:22.026833 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\BigPapaProject\GitHub\dbt-challenge\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:08:22.031837 [debug] [MainThread]: Command `dbt run` failed at 12:08:22.030838 after 0.48 seconds
+[0m12:08:22.032976 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2C016660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2F593BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A2F7ECA10>]}
+[0m12:08:22.035837 [debug] [MainThread]: Flushing usage events
